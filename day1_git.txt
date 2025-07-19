@@ -1,0 +1,78 @@
+
+### to find out version 
+git --version
+
+
+### configuration:
+
+git config --global user.name "Your Name"
+git config --global user.email "Your mail id"
+ 
+
+###change the directory
+cd /downloads
+
+### create a directory
+mkdir dir_name
+
+
+#### to change the master name 
+git branch -m master your_name
+
+
+### to create csv file 
+echo "date,sales"  > sales1.csv
+echo "2025-01-01,2000" >> sales1.csv
+echo "this is my text file" > sample.txt
+
+verify 
+git config --list
+
+### this cmd to initaite the git file
+git add sales1.csv
+
+### this cmd to initaite all the git file in ur folder
+git add .
+
+
+### git status
+git status
+
+
+## adding values
+
+echo "2021-11-11,1650" >>sales1.csv
+
+git status
+
+
+
+## check whats changed
+
+git diff
+
+git add sales1.csv
+git commit -m "Added sales data for nov 11"
+
+click esc and use this command 
+q is quit
+wq is save and quit
+
+
+
+
+
+
+
+
+creating and clone repo:
+
+git init 
+
+git init myproject
+
+to copy file from repo:
+curl -O link
+
+
+echo "This is my sample text" > dummyfile.txt  ### creating a text file
