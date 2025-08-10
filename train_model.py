@@ -14,3 +14,4 @@ model.fit(X, y)
 
 print("Model trained successfully")
 \nprint('R^2 score:',model.score(X,y))
+\nprint('Model coefficients:', model.coef_)
